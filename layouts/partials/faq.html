@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-lg-4 col-md-12">
         <div class="faq-content text-block">
-          <h2> {{.title}} </h2>
+          <h2> {{T .title}} </h2>
         </div>
       </div>
       <div class="col-lg-8 col-md-12">
@@ -13,9 +13,9 @@
          {{ range .faq}}
           <div class="col-lg-6">
             <div class="faq-content">
-              <h3>{{.question}}</h3>
+              <h3>{{T .question}}</h3>
               <p>
-                  {{.answer}}
+                  {{T .answer}}
               </p>
             </div>
           </div>
